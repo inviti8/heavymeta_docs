@@ -3,12 +3,12 @@
 **Blender Scene Tab:**
 
 
-![SceneTab.png](../../_resources/SceneTab-2.png)
+![SceneTab.png](../../_resources/SceneTab.png)
 * * *
 
 **Model Debugger**
 Used to debug, or display assigned Proprium in Browser.
-![NFT_Minter_Settings.png](../../_resources/NFT_Minter_Settings-1.png)
+![NFT_Minter_Settings.png](../../_resources/NFT_Minter_Settings.png)
 
 **Attributes:**
 <details>

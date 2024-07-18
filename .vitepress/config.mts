@@ -6,11 +6,12 @@ export default defineConfig({
   description: "Documentation for the Heavymeta Tool Set.",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: '../../_resources/logo.png',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Introduction', link: '/Info/Introduction' },
       { text: 'Network', link: '/Network/Vision' },
-      { text: 'Getting Started', link: '/Getting Started/Getting Started' },
+      { text: 'Getting Started', link: '/Getting Started/Welcome' },
       { text: 'Content Creation', link: '/Content Creation/Content Creation' },
       { text: 'Examples', link: '/markdown-examples' }
     ],
@@ -39,7 +40,7 @@ export default defineConfig({
       text: 'Getting Started',
       collapsed: true,
         items: [
-          { text: 'Welcome', link: '/Getting Started/Getting Started' },
+          { text: 'Welcome', link: '/Getting Started/Welcome' },
           { text: 'Prerequisites', link: '/Getting Started/Setup/Prerequisites' },
           { text: 'Installation', link: '/Getting Started/Setup/Installation' },
           { text: 'Engage the Network', link: '/Getting Started/Setup/Engage the Network' }

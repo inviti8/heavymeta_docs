@@ -2,13 +2,13 @@
 
 **Blender Scene Tab:**
 
-![SceneTab.png](../../_resources/SceneTab-2.png)
+![SceneTab.png](../../_resources/SceneTab.png)
 
 * * *
 
 **Model Debugger**  
 Used to debug, or display assigned Proprium in Browser.  
-![model_debugger_project_settings.png](../../_resources/model_debugger_project_settings-1.png)  
+![model_debugger_project_settings.png](../../_resources/model_debugger_project_settings.png)  
 **Attributes:**
 
 <details><summary>Project-Type</summary> This sets the template used for your project.</details> <details><summary>Chain</summary> This is the chain used to deploy your project. Currently Heavymeta only supports Dfinity Internet Computer Protocol.</details> <details><summary>Set Account</summary> This the account that will be used to deploy your project.</details> <details><summary>New Account</summary> Create a new account that will be used to deploy your project.</details>

@@ -2,12 +2,12 @@
 
 **Blender Scene Tab:**
 
-![SceneTab.png](../../_resources/SceneTab-2.png)
+![SceneTab.png](../../_resources/SceneTab.png)
 * * *
 
 **Model Debugger**
 Used to debug, or display assigned Proprium in Browser.
-![custom_project_settings.png](../../_resources/custom_project_settings-1.png)
+![custom_project_settings.png](../../_resources/custom_project_settings.png)
 
 **Attributes:**
 <details>

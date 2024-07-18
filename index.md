@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Heavymeta Docs"
   text: "Documentation for the Heavymeta Tool Set."
-  tagline: My great project tagline
+  image: "../../_resources/hvym_3d_logo.png"
   actions:
     - theme: brand
       text: Markdown Examples
