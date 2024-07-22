@@ -44,7 +44,7 @@ Routes for site content are defined in "sidebar":
     ]
 ```
 
-&nbsp;Joplin is used for generating the markdown.
+&nbsp;Joplin is used for generating the markdown: https://joplinapp.org/
 
 Once done adding all new notes in Joplin, and ready to test, delete all markdown folders, and '_resources' folder.
 
