@@ -46,10 +46,24 @@ Routes for site content are defined in "sidebar":
 
 &nbsp;Joplin is used for generating the markdown: https://joplinapp.org/
 
-Once done adding all new notes in Joplin, and ready to test, delete all markdown folders, and '_resources' folder.
+Once done adding all new notes in Joplin, and ready to test, delete all markdown folders, and '\_resources' folder in the local repo.
 
-Then, in Joplin do: File > Export All > Markdown MD, to export all updated markdown files and images.
+Then, in Joplin do: File > Export All > Markdown MD, to export all updated markdown files and images into the local repo.
 
-&nbsp;
+##Test
+
+open a terminal in the local repo
+
+```sh
+cd heavymeta_docs
+```
+
+&nbsp;run the dev server:
+
+```sh
+npx vitepress
+```
+
+The dev server should be running at `http://localhost:5173`. Visit the URL in your browser to see your new site in action! 
 
 &nbsp;
