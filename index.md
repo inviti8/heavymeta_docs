@@ -3,23 +3,23 @@
 layout: home
 
 hero:
-  name: "Heavymeta Docs"
-  text: "Documentation for the Heavymeta Tool Set."
+  name: "Heavymeta™"
+  text: "Documentation"
   image: "../../_resources/hvym_3d_logo.png"
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: See the Possibilities
       link: /markdown-examples
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Examples
+      link: /Content Creation/3. Proprium Assignment/Examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 🎨 A New Way to Create
+    details: Create Interactive Web3 content in a brand new way. Leverage the innovation of the toolset.
+  - title: 🚀 Deploy with Ease
+    details: Leverage the power of Dfinity's Internet Computer Protocol. Heavymeta™ has zero code deployment options for your creations.
+  - title: 🔐 Secure your Creations
+    details: Because the backend code for creations built with Heavymeta™ are Smart Contracts, the data is immutable, and cryptographically unique.
 ---
 

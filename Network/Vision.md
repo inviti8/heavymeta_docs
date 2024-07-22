@@ -1,3 +1,5 @@
+## Vision
+
 For nearly a generation, creators have freely posted content onto internet platforms becoming the unwitting products for these corporations, many of them unscrupulous in their handling and use of acquired data.  A generation of Artists posted their visual and audio works, that have now been integrated into A.I. models.  Creators must build content in new ways, in order to cryptographically secure their works, so that they can maintain ownership.  This requires cooperation and pooling of resources, in order to build a network that operates in the best interest of it's participants.
 
 The objective envisioned for this network is to provide a digital stronghold for Artists and Creators. The goal being that the coming generations can seal and maintain ownership of their digital creations, and leverage AI as they see fit as individuals or network wide. So that they may benefit from the fruits of their labors.
