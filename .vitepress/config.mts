@@ -4,10 +4,10 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Heavymeta Docs",
   description: "Documentation for the Heavymeta Tool Set.",
-  assetsDir: '../../_resources',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '../../_resources/logo.png',
+    assetsDir: '../../_resources',
     search: {
       provider: 'local'
     },
