@@ -8,7 +8,7 @@ altitude: 0.0000
 ---
 
 ## Opus Token
-<img src="../../_resources/opus11.png" alt="opus11.png" width="199" height="199" class="jop-noMdConv">
+<img src="/.vitepress/_resources/opus11.png" alt="opus11.png" width="199" height="199" class="jop-noMdConv">
 
 By running a Pintheon Node, you become a part of the network.  Currently Pintheon Nodes run on the Stellar Network, each node supporting transactions in XLM as a payment token, as well as the native token Opus.  Opus, is meant to act as a small incentive for running a node.  A predetermined amount of Opus is minted to the Pintheon Node wallet, every time a file is uploaded to the node.
 

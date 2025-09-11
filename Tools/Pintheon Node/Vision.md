@@ -8,7 +8,7 @@ altitude: 0.0000
 ---
 
 ## Pintheon
-<img src="../../_resources/pintheon_logo.png" alt="pintheon_logo.png" width="164" height="164" class="jop-noMdConv">
+<img src="/.vitepress/_resources/pintheon_logo.png" alt="pintheon_logo.png" width="164" height="164" class="jop-noMdConv">
 
 Under the current Web 2.0 model, creators upload content to corporations who offer hosting of said files, for a plethora of reasons.  Because of these services are 'free', profits must be made utilizing user data, therefore the files and data collected on these centralized services are subject to exploitation, to the determent of the user in most cases.  Artificial Intelligence Corporations have taken advantage of this to train their models from data posted on the public internet.
 

@@ -9,7 +9,7 @@ altitude: 0.0000
 
 ## Settings
 
-<img src="../../_resources/settings.png" alt="settings.png" width="697" height="338" class="jop-noMdConv">
+<img src="/.vitepress/_resources/settings.png" alt="settings.png" width="697" height="338" class="jop-noMdConv">
 
 * * *
 
@@ -24,25 +24,25 @@ altitude: 0.0000
 
 ## Custom Homepage
 
-<img src="../../_resources/ipfs_homepage.png" alt="ipfs_homepage.png" width="248" height="257" class="jop-noMdConv">
+<img src="/.vitepress/_resources/ipfs_homepage.png" alt="ipfs_homepage.png" width="248" height="257" class="jop-noMdConv">
 
 Enter the hash of an uploaded html document, and it will be served at the root endpoint of the node.  
-<img src="../../_resources/upload_homepage.png" alt="upload_homepage.png" width="246" height="255" class="jop-noMdConv">  
+<img src="/.vitepress/_resources/upload_homepage.png" alt="upload_homepage.png" width="246" height="255" class="jop-noMdConv">  
 Additionally, a custom homepage can be uploaded. The required file type is a zip file, of a valid static website.
 
 * * *
 
 ## Access Tokens
 
-![new_token.png](../../_resources/new_token.png)
+![new_token.png](/.vitepress/_resources/new_token.png)
 
 To create an access token, click the 'Add Access Token' button.  This token requires a 'Stellar 25519 Public Key', this key can be generated using the [hvym_stellar python package]('https://github.com/inviti8/hvym_stellar'). The token can be timestamped, with a minimum of 1 minute, and a maximum of 1 year.  More information about these types of keys is covered in the developers section.
 
-<img src="../../_resources/add_token2.png" alt="add_token2.png" width="439" height="351" class="jop-noMdConv">
+<img src="/.vitepress/_resources/add_token2.png" alt="add_token2.png" width="439" height="351" class="jop-noMdConv">
 
 After a token is created it can be copied, and saved as needed.  The token is not saved by your node.  Once the above window, the token cannot be regenerated.
 
-<img src="../../_resources/token_list.png" alt="token_list.png" width="743" height="105" class="jop-noMdConv">
+<img src="/.vitepress/_resources/token_list.png" alt="token_list.png" width="743" height="105" class="jop-noMdConv">
 
 The Access token list is populated under the 'Add Access Token' button. This list can be used to revoke access buttons by clicking the 'X' button to delete the public key reference.
 

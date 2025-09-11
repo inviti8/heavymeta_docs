@@ -9,7 +9,7 @@ altitude: 0.0000
 
 ## Dashboard
 
-<img src="../../_resources/dashboard1_notated.png" alt="dashboard1_notated.png" width="704" height="342" class="jop-noMdConv">
+<img src="/.vitepress/_resources/dashboard1_notated.png" alt="dashboard1_notated.png" width="704" height="342" class="jop-noMdConv">
 
 * * *
 
@@ -24,7 +24,7 @@ altitude: 0.0000
 
 ## Upload
 
-<img src="../../_resources/upload_file1.png" alt="upload_file1.png" width="360" height="296" class="jop-noMdConv">
+<img src="/.vitepress/_resources/upload_file1.png" alt="upload_file1.png" width="360" height="296" class="jop-noMdConv">
 
 After pressing the main dashboard 'upload' button a dialog will open.  Here you can choose whether or not you want to encrypt the file, then press the 'upload' dialog button, to select the file that will be uploaded.
 
@@ -32,7 +32,7 @@ After pressing the main dashboard 'upload' button a dialog will open.  Here you
 
 ## File List
 
-<img src="../../_resources/file_list1.png" alt="file_list1.png" width="670" height="118" class="jop-noMdConv">
+<img src="/.vitepress/_resources/file_list1.png" alt="file_list1.png" width="670" height="118" class="jop-noMdConv">
 
 Once upload is complete, the file icon and hash will appear in the list below the 'Upload' button.
 
@@ -40,10 +40,10 @@ Once upload is complete, the file icon and hash will appear in the list below th
 
 ## Tokenization
 
-<img src="../../_resources/file_list2.png" alt="file_list2.png" width="666" height="279">
+<img src="/.vitepress/_resources/file_list2.png" alt="file_list2.png" width="666" height="279">
 
 Each file list item can expanded to reveal the available Stellar Ledger functions associated with it. Clicking the 'Publish' button will create a Smart Contract event call, that will publish the file information to the Stellar Ledger.
 
-<img src="../../_resources/tokenize_file.png" alt="tokenize_file.png" width="665" height="325" class="jop-noMdConv">
+<img src="/.vitepress/_resources/tokenize_file.png" alt="tokenize_file.png" width="665" height="325" class="jop-noMdConv">
 
 Clicking the 'Tokenize' button allows you to create a token associated with the file.  An initial allocation can be set, which is the amount of this file token that will be minted to the node wallet.  This file token can be transferred to any Stellar compatible wallet, and the associated contract holds the metadata for the particular file.

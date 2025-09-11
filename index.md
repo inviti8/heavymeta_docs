@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Heavymeta™"
   text: "Documentation"
-  image: "../../_resources/hvym_3d_logo.png"
+  image: "/.vitepress/_resources/hvym_3d_logo.png"
   actions:
     - theme: brand
       text: Why Pintheon

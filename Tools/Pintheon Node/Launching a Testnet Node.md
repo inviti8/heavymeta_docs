@@ -61,7 +61,7 @@ On first run, the ssl certificate will be saved on your system at the following 
 
 ## Launch UI
 
-<img src="../../_resources/pintheon_launch_page_1.png" alt="pintheon_launch_page_1.png" width="539" height="320" class="jop-noMdConv">
+<img src="/.vitepress/_resources/pintheon_launch_page_1.png" alt="pintheon_launch_page_1.png" width="539" height="320" class="jop-noMdConv">
 
 In order to launch your node, you must have a launch key and token. Click the 'Open Token Gen' button, and the Token Generation app will be opened in a new tab.
 
@@ -69,7 +69,7 @@ In order to launch your node, you must have a launch key and token. Click the 'O
 
 ## Launch Token Generator
 
-<img src="../../_resources/pintheon_token_gen1.png" alt="pintheon_token_gen1.png" width="549" height="278" class="jop-noMdConv">
+<img src="/.vitepress/_resources/pintheon_token_gen1.png" alt="pintheon_token_gen1.png" width="549" height="278" class="jop-noMdConv">
 
 Enter a valid email address, and then click the launch button.
 
@@ -77,7 +77,7 @@ Enter a valid email address, and then click the launch button.
 
 ## Fund the node
 
-<img src="../../_resources/fund_node.png" alt="fund_node.png" width="407" height="515">
+<img src="/.vitepress/_resources/fund_node.png" alt="fund_node.png" width="407" height="515">
 
 You'll be presented with a prompt to fund the new node using XLM.
 
@@ -85,7 +85,7 @@ You'll be presented with a prompt to fund the new node using XLM.
 
 ## Copy Launch Token from UI
 
-<img src="../../_resources/launch_token_gen2.png" alt="launch_token_gen2.png" width="544" height="270" class="jop-noMdConv">
+<img src="/.vitepress/_resources/launch_token_gen2.png" alt="launch_token_gen2.png" width="544" height="270" class="jop-noMdConv">
 
 Once node is funded, a token will be generated, which can be copied to the clipboard.
 
@@ -93,7 +93,7 @@ Once node is funded, a token will be generated, which can be copied to the clipb
 
 ## Copy Launch Key from email
 
-<img src="../../_resources/Screenshot%202025-08-04%20180653.png" alt="Screenshot 2025-08-04 180653.png" width="544" height="512" class="jop-noMdConv">
+<img src="/.vitepress/_resources/Screenshot%202025-08-04%20180653.png" alt="Screenshot 2025-08-04 180653.png" width="544" height="512" class="jop-noMdConv">
 
 Your launch key will be sent to the provided email address. Along with the address of your node on the Stellar network. The node is pre-funded with xlm to cover the launch fees.  You'll need to keep this address funded to perform additional network actions.
 
@@ -101,7 +101,7 @@ Your launch key will be sent to the provided email address. Along with the addre
 
 ## Paste Launch token and key
 
-<img src="../../_resources/pintheon_launch_page_2.png" alt="pintheon_launch_page_2.png" width="546" height="540" class="jop-noMdConv">
+<img src="/.vitepress/_resources/pintheon_launch_page_2.png" alt="pintheon_launch_page_2.png" width="546" height="540" class="jop-noMdConv">
 
 Paste both the launch token and key into their related fields, and click the 'Establish' button.
 
@@ -109,7 +109,7 @@ Paste both the launch token and key into their related fields, and click the 'Es
 
 ## Establish Node on Network
 
-<img src="../../_resources/establish_pintheon_node.png" alt="establish_pintheon_node.png" width="543" height="521" class="jop-noMdConv">
+<img src="/.vitepress/_resources/establish_pintheon_node.png" alt="establish_pintheon_node.png" width="543" height="521" class="jop-noMdConv">
 
 Enter a unique name for your node, a description, and some optional meta data.  Then click the 'Save Keystore' button, to establish your node data on the Stellar Network.
 
@@ -117,7 +117,7 @@ Enter a unique name for your node, a description, and some optional meta data. 
 
 ## Save Node Keystore
 
-<img src="../../_resources/creat_keystore_1.png" alt="creat_keystore_1.png" width="547" height="512" class="jop-noMdConv">
+<img src="/.vitepress/_resources/creat_keystore_1.png" alt="creat_keystore_1.png" width="547" height="512" class="jop-noMdConv">
 
 You will be prompted to enter a password.  This will create an encrypted keystore file.  **DO NOT lose your password, or the file,** it is required to enter the dashboard of your node.
 
@@ -125,7 +125,7 @@ You will be prompted to enter a password.  This will create an encrypted keysto
 
 ## Load Keystore to login to Node
 
-<img src="../../_resources/authenticate.png" alt="authenticate.png" width="548" height="428" class="jop-noMdConv">
+<img src="/.vitepress/_resources/authenticate.png" alt="authenticate.png" width="548" height="428" class="jop-noMdConv">
 
 After the encrypted keystore is generated and downloaded, you'll be redirected to the 'Authenticate' page.  From here you can click the 'Authenticate' button, enter your password, and select you encrypted keystore file.  Which will log you into the dashboard.
 

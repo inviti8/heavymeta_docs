@@ -6,8 +6,9 @@ export default defineConfig({
   description: "Documentation for the Heavymeta Tool Set.",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: '../../_resources/logo.png',
-    assetsDir: '../../_resources',
+    logo: '/.vitepress/_resources/logo.png',
+    // assetsDir is for build output, not source assets
+    // Remove it as we're handling assets differently
     search: {
       provider: 'local'
     },

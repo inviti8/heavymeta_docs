@@ -58,23 +58,23 @@ Windows firewall may flag the file as a virus on download, if this happens, foll
 * * *
 
 ## Running Metavinci
-<img src="../../_resources/metavinci_app_menu.png" alt="metavinci_app_menu.png" width="538" height="180" class="jop-noMdConv">
+<img src="/.vitepress/_resources/metavinci_app_menu.png" alt="metavinci_app_menu.png" width="538" height="180" class="jop-noMdConv">
 
 After installation the program icon will be available in the apps menu of your specific operating system.  Click it to launch the tray program.  Metavinci is a minimal program designed to make it easier to install various tools in the Heavymeta ecosystem.
 
 * * *
 ## Installing the Heavymeta CLI
-<img src="../../_resources/metavinci_install_hvym.png" alt="metavinci_install_hvym.png" width="573" height="192" class="jop-noMdConv">
+<img src="/.vitepress/_resources/metavinci_install_hvym.png" alt="metavinci_install_hvym.png" width="573" height="192" class="jop-noMdConv">
 
 The first tool required is the hvym cli.  If you right-click the Metavinci icon shown in the tray, a drop down menu will be displayed, prompting you in to install the hvym cli.  Click this to install.
 * * *
 ## Installing Pintheon
-<img src="../../_resources/metavinci_install_pintheon.png" alt="metavinci_install_pintheon.png" width="545" height="213" class="jop-noMdConv">
+<img src="/.vitepress/_resources/metavinci_install_pintheon.png" alt="metavinci_install_pintheon.png" width="545" height="213" class="jop-noMdConv">
 
 After hvym is installed, you will now have ability to install Pintheon. ==Make sure that docker is running when trying to install Pintheon, if it isn't installation will fail.==  Installation could take a quite a while due to the Pintheon Image size.
 * * *
 ## Running Pintheon
-<img src="../../_resources/start_pintheon.png" alt="start_pintheon.png" width="542" height="206" class="jop-noMdConv">
+<img src="/.vitepress/_resources/start_pintheon.png" alt="start_pintheon.png" width="542" height="206" class="jop-noMdConv">
 
 Once installed, you will now be able to start up the Pintheon node in the Metavinci tray.
 * * *
