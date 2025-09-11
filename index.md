@@ -8,18 +8,18 @@ hero:
   image: "../../_resources/hvym_3d_logo.png"
   actions:
     - theme: brand
-      text: See the Possibilities
-      link: /markdown-examples
+      text: Why Pintheon
+      link: /Tools/Why Pintheon
     - theme: alt
       text: Examples
       link: /Content Creation/3. Proprium Assignment/Examples
 
 features:
-  - title: 🎨 A New Way to Create
-    details: Create Interactive Web3 content in a brand new way. Leverage the innovation of the toolset.
+  - title: 🎨 Built by Creators for Creators
+    details: Focused on protection of your digital content rights.
   - title: 🚀 Deploy with Ease
-    details: Leverage the power of Dfinity's Internet Computer Protocol. Heavymeta™ has zero code deployment options for your creations.
+    details: Easily upload content to your Pintheon node, designed for open development.
   - title: 🔐 Secure your Creations
-    details: Because the backend code for creations built with Heavymeta™ are Smart Contracts, the data is immutable, and cryptographically unique.
+    details: All files are cryptographically fingerprinted and stored on ipfs, this data can easily be tokenized and stored on the Stellar Ledger.
 ---
 

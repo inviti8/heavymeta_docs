@@ -1,8 +1,0 @@
-## Introduction
-
-Heavymeta aims to be a catalyst in building content and decentralized applications for Web 3.0.  It is a tool set that empowers digital content creators to harness the power of decentralized technology and smart contracts.  Let's be honest, to this point what we call Web3, isn't really anything new in terms of user experience.  The interfaces used to interact with decentralized protocols, is really the same technology used in Web 2.0.  Sure the buttons ui elements have changed their appearances and animations, depending on which web framework is the current darling, but for the most part it's just the same old thing. 
-
-Heavymeta's focus is on 3D content creation.  Instead of choosing some frame work for your Dapp front end, you build the Interface in Blender, and assign the functionality you want.
-Have you felt using html, js, and most especially css to build experiences, feels a bit disjointed? Although you can accomplish some impressive interfaces using these technologies, does it seem more difficult than it needs to be?  Of course there are website editors, one can use to create.  Having used those, have you felt constrained in what you're able to create?  
-
-Aside from the caveats described, creation for the web using these technologies requires you to be on the hook to some service provider.  A service provider who can remove your content for whatever reasons the choose.  Building web3 content using these Web2 technologies is a antithetical.  After all, shouldn't you own what you create?  Shouldn't you have full control of your creation? Heavymeta can help you with that.

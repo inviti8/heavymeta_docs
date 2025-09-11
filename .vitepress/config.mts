@@ -4,20 +4,18 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Heavymeta Docs",
   description: "Documentation for the Heavymeta Tool Set.",
+  assetsDir: '../../_resources',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '../../_resources/logo.png',
-    assetsDir: '../../_resources',
     search: {
       provider: 'local'
     },
     nav: [
-      { text: '🏡', link: '/' },
-      { text: '📜', link: '/Info/Introduction' },
-      { text: '🌐', link: '/Network/Vision' },
-      { text: '⚙️', link: '/Getting Started/Welcome' },
-      { text: '🛠️', link: '/Content Creation/Content Creation' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '🏯', link: '/' },
+      { text: '📜', link: '/Tools/Introduction' },
+      { text: '🪁', link: '/Tools/Pintheon Node/Vision' },
+      { text: '📓', link: '/Tools/Press/Heavymeta Press' }
     ],
 
     sidebar: [
@@ -25,64 +23,33 @@ export default defineConfig({
       text: '📜',
       collapsed: true,
         items: [
-          { text: '💬 ~ Introduction', link: '/Info/Introduction' },
-          { text: '💬 ~ Proprium Data Structure', link: '/Info/Tools/Proprium Data Structure' },
-          { text: '💬 ~ Blender Addon', link: '/Info/Tools/Blender Addon' },
-          { text: '💬 ~ Interaction Engine', link: '/Info/Tools/Interaction Engine' }
+          { text: '💬 Introduction', link: '/Tools/Introduction' }
         ]
       },
       {
-      text: '🌐',
+      text: '🪁 Pintheon',
       collapsed: true,
         items: [
-          { text: '💡 ~ Vision', link: '/Network/Vision' },
-          { text: '💡 ~ Utility Tokens', link: '/Network/Utility Tokens' },
-          { text: '💡 ~ Tokenomics', link: '/Network/Tokenomics' }
+          { text: '🌟 Why Choose Pintheon', link: '/Tools/Why Pintheon' },
+          { text: '🪬 Vision', link: '/Tools/Pintheon Node/Vision' },
+          { text: '📥 Installation', link: '/Tools/Pintheon Node/Installation' },
+          { text: '🚀 Launching', link: '/Tools/Pintheon Node/Launching a Testnet Node' },
+          { text: '🎛 Dashboard', link: '/Tools/Pintheon Node/Dashboard' },
+          { text: '⚙️ Settings', link: '/Tools/Pintheon Node/Settings' },
+          { text: '🌐 Serving Files', link: '/Tools/Pintheon Node/Serving Files to the Internet' },
+          { text: '🌅 Opus Token', link: '/Tools/Pintheon Node/Opus Token' },
+          { text: '🛠️ Developer Guide', link: '/Tools/Pintheon Node/Developer Guide - Programmatic Access' }
         ]
       },
       {
-      text: '⚙️',
+      text: '📓 Heavymeta Press',
       collapsed: true,
         items: [
-          { text: '😎 ~ Welcome', link: '/Getting Started/Welcome' },
-          { text: '💾 ~ Prerequisites', link: '/Getting Started/Setup/Prerequisites' },
-          { text: '💾 ~ Installation', link: '/Getting Started/Setup/Installation' },
-          { text: '💾 ~ Engage the Network', link: '/Getting Started/Setup/Engage the Network' }
+          { text: '😎 Introduction', link: '/Tools/Press/Heavymeta Press' },
+          { text: '📥 Installation', link: '/Tools/Press/Installation' },
+          { text: '🏃🏻 Running Press', link: '/Tools/Press/Running Press' },
+          { text: '⚙️ Settings', link: '/Tools/Press/Settings' }
         ]
-      },
-      {
-      text: '🛠️',
-      collapsed: true,
-        items: [
-          { text: '✨ ~ Create', link: '/Content Creation/Content Creation' },
-          { text: '🏦 ~ Account Management', link: '/Content Creation/1. Account Management/Account Management' },
-          { 
-            text: '📐 ~ Project Settings',
-            items: [
-                { text: 'Model Debugger Settings', link: '/Content Creation/2. Project Settings/Model Debugger Settings' },
-                { text: 'NFT Minter Settings', link: '/Content Creation/2. Project Settings/NFT Minter Settings' },
-                { text: 'Custom Settings', link: '/Content Creation/2. Project Settings/Custom Settings' },
-                { text: 'Minter Setup Example', link: '/Content Creation/2. Project Settings/Minter Setup Example' }
-              ]
-          },
-          { 
-            text: '🤖 ~ Proprium Assignment',
-            items: [
-                { text: 'Proprium', link: '/Content Creation/3. Proprium Assignment/NFT Data - Proprium' },
-                { text: 'Interactables', link: '/Content Creation/3. Proprium Assignment/NFT Data - Interactables' },
-                { text: 'Actions', link: '/Content Creation/3. Proprium Assignment/NFT Data - Action' },
-                { text: 'Examples', link: '/Content Creation/3. Proprium Assignment/Examples' }
-              ]
-          }
-        ]
-      },
-      {
-        text: 'Examples',
-        collapsed: true,
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ],
       }
     ],
 
