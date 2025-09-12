@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Heavymeta™"
-  text: "Documentation"
+  text: "Toolkit"
   
   actions:
     - theme: brand
