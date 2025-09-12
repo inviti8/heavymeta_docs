@@ -30,16 +30,23 @@ export default defineConfig({
       {
       text: '🪁 Pintheon',
       collapsed: true,
-        items: [
-          { text: '🌟 Why Choose Pintheon', link: '/Tools/Why Pintheon' },
-          { text: '🪬 Vision', link: '/Tools/Pintheon Node/Vision' },
-          { text: '📥 Installation', link: '/Tools/Pintheon Node/Installation' },
-          { text: '🚀 Launching', link: '/Tools/Pintheon Node/Launching a Testnet Node' },
-          { text: '🎛 Dashboard', link: '/Tools/Pintheon Node/Dashboard' },
-          { text: '⚙️ Settings', link: '/Tools/Pintheon Node/Settings' },
-          { text: '🌐 Serving Files', link: '/Tools/Pintheon Node/Serving Files to the Internet' },
-          { text: '🌅 Opus Token', link: '/Tools/Pintheon Node/Opus Token' },
-          { text: '🛠️ Developer Guide', link: '/Tools/Pintheon Node/Developer Guide - Programmatic Access' }
+      items: [
+        { text: '🌟 Why Choose Pintheon', link: '/Tools/Why Pintheon' },
+        { text: '🪬 Vision', link: '/Tools/Pintheon Node/Vision' },
+        { text: '📥 Installation', link: '/Tools/Pintheon Node/Installation' },
+        { text: '🚀 Launching', link: '/Tools/Pintheon Node/Launching a Testnet Node' },
+        { text: '🎛 Dashboard', link: '/Tools/Pintheon Node/Dashboard' },
+        { text: '⚙️ Settings', link: '/Tools/Pintheon Node/Settings' },
+        { text: '🌐 Serving Files', link: '/Tools/Pintheon Node/Serving Files to the Internet' },
+        { text: '🌅 Opus Token', link: '/Tools/Pintheon Node/Opus Token' },
+        {
+          text: '🧑‍💻 Development',
+          collapsed: true,
+          items: [
+            { text: '👋 Welcome', link: '/Tools/Pintheon Node/Developer Welcome' },
+            { text: '📤 File Upload & Access', link: '/Tools/Pintheon Node/Developer Guide - Programmatic Access' }
+          ]
+        }
         ]
       },
       {
