@@ -16,12 +16,13 @@ export default defineConfig({
       { text: '🏯', link: '/' },
       { text: '📜', link: '/Tools/Introduction' },
       { text: '🪁', link: '/Tools/Pintheon Node/Vision' },
-      { text: '📓', link: '/Tools/Press/Heavymeta Press' }
+      { text: '📓', link: '/Tools/Press/Heavymeta Press' },
+      { text: '🛠️', link: '/Tools/Roadmap/Development' }
     ],
 
     sidebar: [
     {
-      text: '📜',
+      text: '📜 About',
       collapsed: true,
         items: [
           { text: '💬 Introduction', link: '/Tools/Introduction' }
@@ -57,6 +58,13 @@ export default defineConfig({
           { text: '📥 Installation', link: '/Tools/Press/Installation' },
           { text: '🏃🏻 Running Press', link: '/Tools/Press/Running Press' },
           { text: '⚙️ Settings', link: '/Tools/Press/Settings' }
+        ]
+      },
+      {
+        text: '🛠️ Roadmap',
+        collapsed: true,
+        items: [
+          { text: 'Development', link: '/Tools/Roadmap/Development' }
         ]
       }
     ],
