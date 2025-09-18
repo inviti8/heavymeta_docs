@@ -7,7 +7,7 @@ longitude: 139.73199250
 altitude: 0.0000
 ---
 
-<img src="../../_resources/press_settings.png" alt="press_settings.png" width="753" height="687" class="jop-noMdConv">
+<img src="/.vitepress/_resources/press_settings.png" alt="press_settings.png" width="753" height="687" class="jop-noMdConv">
 
 ***
 <details>
@@ -20,7 +20,7 @@ This drop-down sets to navigation type for the rendered site.
 
 <details>
 <summary>Style</summary>
-<img src="../../_resources/press_style_types.png" alt="press_style_types.png" width="398" height="114" class="jop-noMdConv">
+<img src="/.vitepress/_resources/press_style_types.png" alt="press_style_types.png" width="398" height="114" class="jop-noMdConv">
 
 This is used to set the style types, subtle differences in styling of site elements.
 </details>
@@ -32,7 +32,7 @@ This sets the spacing between Article columns.
 
 <details>
 <summary>Theme</summary> 
-<img src="../../_resources/press_theme_types.png" alt="press_theme_types.png" width="406" height="230" class="jop-noMdConv">
+<img src="/.vitepress/_resources/press_theme_types.png" alt="press_theme_types.png" width="406" height="230" class="jop-noMdConv">
 
 Drop-down with custom color schemes
 </details>

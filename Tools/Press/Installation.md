@@ -23,7 +23,7 @@ On Mac OS, the downloaded DMG can be dragged to applications, but requires the u
 
 ## Run Metavinci
 
-<img src="../../_resources/metavinci_app_menu.png" alt="metavinci_app_menu.png" width="538" height="180" class="jop-noMdConv">
+<img src="/.vitepress/_resources/metavinci_app_menu.png" alt="metavinci_app_menu.png" width="538" height="180" class="jop-noMdConv">
 
 After installation the program icon will be available in the apps menu of your specific operating system.  Click it to launch the tray program.  Metavinci is a minimal program designed to make it easier to install various tools in the Heavymeta ecosystem.
 
@@ -31,7 +31,7 @@ After installation the program icon will be available in the apps menu of your s
 
 ## Install Press
 
-<img src="../../_resources/install_press.png" alt="install_press.png" width="537" height="191" class="jop-noMdConv">
+<img src="/.vitepress/_resources/install_press.png" alt="install_press.png" width="537" height="191" class="jop-noMdConv">
 
 The first tool required is the hvym cli.  If you right-click the Metavinci icon shown in the tray, a drop down menu will be displayed, prompting you in to install the Press.  Click this to install.
 

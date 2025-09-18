@@ -86,7 +86,7 @@ Pintheon offers a unique one-time payment model that provides significant saving
 
 | Service           | Model               | 1TB Storage (Monthly) | 1TB Bandwidth (Monthly) | One-Time Cost (XLM) | Equivalent USD | Smart Contract | Self-Hosted |
 |-------------------|---------------------|----------------------|------------------------|-------------------|---------------|----------------|-------------|
-| **Pintheon**     | One-time payment    | $0                   | $0                     | 100 XLM           | ~$39          | ✅ Yes         | ✅ Yes      |
+| **Pintheon**     | One-time payment    | $0                   | $0                     | 111 XLM           | ~$45          | ✅ Yes         | ✅ Yes      |
 | Pinata           | Subscription       | $100+                | $0.15/GB              | N/A               | $100+/mo      | ❌ No          | ❌ No       |
 | Web3.Storage     | Pay-as-you-go      | $0.02/GB            | $0.10/GB              | N/A               | $120+/mo      | ✅ Yes         | ❌ No       |
 | Filecoin         | Pay-as-you-go      | $0.19/TB            | $0.10/GB              | N/A               | $105+/mo      | ✅ Yes         | ❌ No       |
@@ -95,10 +95,10 @@ Pintheon offers a unique one-time payment model that provides significant saving
 | Sia              | Pay-as-you-go      | $2/TB               | $1/TB                 | N/A               | $3/TB/mo      | ✅ Yes         | ✅ Yes      |
 | AWS S3           | Pay-as-you-go      | $23/TB              | $8.5/TB               | N/A               | $31.50/TB/mo  | ❌ No          | ❌ No       |
 
-*Note: Prices are approximate and based on September 2025 rates. Pintheon's one-time launch cost is 100 XLM (approximately $39 USD). After the one-time payment, there are no additional storage or bandwidth fees.*
+*Note: Prices are approximate and based on September 2025 rates. Pintheon's one-time launch cost is 111 XLM (approximately $45 USD). After the one-time payment, there are no additional storage or bandwidth fees.*
 
 ### Why Pintheon's Model Saves You Money:
-- **One-time payment** of 100 XLM (~$39) with no recurring fees
+- **One-time payment** of 111 XLM (~$45) with no recurring fees
 - **No hidden costs** - storage and bandwidth are included
 - **Predictable expenses** - no surprise bills based on usage
 - **Value increases** - as XLM appreciates, your savings grow compared to fiat-priced services
