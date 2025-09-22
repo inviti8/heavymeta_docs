@@ -8,8 +8,13 @@ hero:
   
   actions:
     - theme: brand
-      text: Pintheon
-      link: /Tools/Why Pintheon
+      text: 'Pintheon'
+      link: /Tools/Pintheon Node/Vision
+      class: with-icon
+    - theme: brand
+      text: '▶️'
+      link: https://vimeo.com/1120715058?share=copy
+      class: with-icon
     - theme: alt
       text: Developers
       link: /Tools/Pintheon Node/Developer Guide - Programmatic Access

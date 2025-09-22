@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Heavymeta Docs",
+  title: "Heavymeta™",
   description: "Documentation for the Heavymeta Tool Set.",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -32,8 +32,8 @@ export default defineConfig({
       text: '🪁 Pintheon',
       collapsed: true,
       items: [
-        { text: '🌟 Why Choose Pintheon', link: '/Tools/Why Pintheon' },
         { text: '🪬 Vision', link: '/Tools/Pintheon Node/Vision' },
+        { text: '🌟 Why Choose Pintheon', link: '/Tools/Why Pintheon' },
         { text: '📥 Installation', link: '/Tools/Pintheon Node/Installation' },
         { text: '🚀 Launching', link: '/Tools/Pintheon Node/Launching a Testnet Node' },
         { text: '🎛 Dashboard', link: '/Tools/Pintheon Node/Dashboard' },
@@ -70,7 +70,8 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/inviti8' },
+      { icon: 'discord', link: 'https://discord.gg/gyWxJSRb' }
     ]
   }
 })
