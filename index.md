@@ -95,9 +95,11 @@ function init() {
   	const light = new THREE.AmbientLight(0xffffff); // soft light
   	scene.add(light);
 
-  	const loader = new GLTFLoader().setPath('/');
+   	// Use import.meta.env.BASE_URL which is automatically set by Vite
+   	const basePath = import.meta.env.BASE_URL || '/';
+   	const loader = new GLTFLoader().setPath(basePath);
 	
-  	loader.load('bg_model.glb', async function(gltf) {
+   	loader.load('bg_model.glb', async function(gltf) {
 
 		model = gltf.scene;
 

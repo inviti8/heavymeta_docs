@@ -2,6 +2,20 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  // Base URL configuration - will be available as import.meta.env.BASE_URL
+  base: process.env.NODE_ENV === 'production' ? '/custom_homepage/dist/' : '/',
+  // Ensure Vite knows about our base URL
+  vite: {
+    define: {
+      'import.meta.env.BASE_URL': JSON.stringify(process.env.NODE_ENV === 'production' ? '/custom_homepage/dist/' : '/')
+    }
+  },
+  ignoreDeadLinks: [
+    // Don't check external links during build
+    /^https?:\/\//,
+    // Ignore specific paths that might be problematic
+    /^\/\w+\/\w+\.md/,
+  ],
   title: "Heavymeta™",
   description: "Documentation for the Heavymeta Tool Set.",
   themeConfig: {

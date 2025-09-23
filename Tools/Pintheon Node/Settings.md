@@ -36,7 +36,7 @@ Additionally, a custom homepage can be uploaded. The required file type is a zip
 
 ![new_token.png](/.vitepress/_resources/new_token.png)
 
-To create an access token, click the 'Add Access Token' button.  This token requires a 'Stellar 25519 Public Key', this key can be generated using the [hvym_stellar python package]('https://github.com/inviti8/hvym_stellar'). The token can be timestamped, with a minimum of 1 minute, and a maximum of 1 year.  More information about these types of keys is covered in the developers section.
+To create an access token, click the 'Add Access Token' button.  This token requires a 'Stellar 25519 Public Key', this key can be generated using the [hvym_stellar python package](https://github.com/inviti8/hvym_stellar). The token can be timestamped, with a minimum of 1 minute, and a maximum of 1 year.  More information about these types of keys is covered in the developers section.
 
 <img src="/.vitepress/_resources/add_token2.png" alt="add_token2.png" width="439" height="351" class="jop-noMdConv">
 

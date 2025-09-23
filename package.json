@@ -4,7 +4,9 @@
   },
   "scripts": {
     "docs:dev": "vitepress dev",
-    "docs:build": "vitepress build",
+    "docs:build": "NODE_ENV=production vitepress build",
+    "docs:build:single": "NODE_ENV=production vite build --outDir .vitepress/dist/single --emptyOutDir false",
+    "docs:build:pintheon": "NODE_ENV=production vitepress build",
     "docs:preview": "vitepress preview"
   },
   "dependencies": {
