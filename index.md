@@ -44,8 +44,11 @@ init();
 
 function init() {
 
+  // Use import.meta.env.BASE_URL which is automatically set by Vite
+  const basePath = import.meta.env.BASE_URL || '/';
+
 	const material = new THREE.MeshMatcapMaterial();
-	const matcapTexture = new THREE.TextureLoader().load('/matcap_logo.png');
+	const matcapTexture = new THREE.TextureLoader().load(basePath + 'matcap_logo.png');
 	material.matcap = matcapTexture;
   material.color.setHex(0xdba2cc);
 
@@ -88,15 +91,51 @@ function init() {
   const threeContainer = document.createElement('div');
   threeContainer.classList.add('three_js');
 
-  camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.01, 2000);
-  camera.position.set(-5, 0, 25);
+  // Set up camera with a fixed aspect ratio
+  const targetAspect = 16 / 9; // Standard widescreen aspect ratio
+  
+  // Create camera with fixed aspect ratio
+  camera = new THREE.PerspectiveCamera(35, targetAspect, 0.01, 2000);
+  camera.position.set(-5, 2, 20); // Fixed position that works well with the scene
+  
+  // Apply the same aspect ratio calculation as in onWindowResize
+  const onWindowResize = () => {
+    // Maintain target aspect ratio
+    let width, height;
+    
+    if (window.innerWidth / window.innerHeight > targetAspect) {
+      // Window is wider than target aspect ratio
+      height = window.innerHeight;
+      width = height * targetAspect;
+    } else {
+      // Window is taller than target aspect ratio
+      width = window.innerWidth;
+      height = width / targetAspect;
+    }
+    
+    // Update renderer size
+    if (renderer) {
+      renderer.setSize(width, height);
+      
+      // Center the canvas in the window
+      renderer.domElement.style.marginLeft = `${(window.innerWidth - width) / 2}px`;
+      renderer.domElement.style.marginTop = `${(window.innerHeight - height) / 2}px`;
+    }
+    
+    // Update camera and render
+    camera.aspect = targetAspect;
+    camera.updateProjectionMatrix();
+    if (scene) render();
+  };
+  
+  // Store the function reference for the event listener
+  window._onWindowResize = onWindowResize;
 
 	scene = new THREE.Scene();
   	const light = new THREE.AmbientLight(0xffffff); // soft light
   	scene.add(light);
 
-   	// Use import.meta.env.BASE_URL which is automatically set by Vite
-   	const basePath = import.meta.env.BASE_URL || '/';
+   	
    	const loader = new GLTFLoader().setPath(basePath);
 	
    	loader.load('bg_model.glb', async function(gltf) {
@@ -141,28 +180,45 @@ function init() {
   });
   renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
   renderer.setPixelRatio(window.devicePixelRatio);
-  renderer.setSize(window.innerWidth, window.innerHeight);
   renderer.toneMapping = THREE.ACESFilmicToneMapping;
   renderer.toneMappingExposure = 1;
   threeContainer.appendChild(renderer.domElement);
-
-  window.addEventListener('resize', onWindowResize);
-
-}
-
-function onWindowResize() {
-
-	camera.aspect = window.innerWidth / window.innerHeight;
-	camera.updateProjectionMatrix();
-
-  	renderer.setSize(window.innerWidth, window.innerHeight);
-  	//renderer.setAnimationLoop(animate);
-	render();
-
+  
+  // Add window resize handler and trigger initial resize
+  window.addEventListener('resize', window._onWindowResize);
+  window._onWindowResize(); // Call it once on initial load
 } 
 
 function render() {
   renderer.render(scene, camera);
+}
+
+function onWindowResize() {
+  // Maintain target aspect ratio
+  const targetAspect = 16 / 9;
+  let width, height;
+  
+  if (window.innerWidth / window.innerHeight > targetAspect) {
+    // Window is wider than target aspect ratio
+    height = window.innerHeight;
+    width = height * targetAspect;
+  } else {
+    // Window is taller than target aspect ratio
+    width = window.innerWidth;
+    height = width / targetAspect;
+  }
+  
+  // Update renderer size
+  renderer.setSize(width, height);
+  
+  // Center the canvas in the window
+  renderer.domElement.style.marginLeft = `${(window.innerWidth - width) / 2}px`;
+  renderer.domElement.style.marginTop = `${(window.innerHeight - height) / 2}px`;
+  
+  // Update camera and render
+  camera.aspect = targetAspect;
+  camera.updateProjectionMatrix();
+  render();
 }
 
 function animate() {
@@ -173,8 +229,8 @@ function animate() {
 }
 
 document.addEventListener('mousemove', function(event) {
-    model.rotation.y += event.movementX * 0.0001;
-    model.rotation.x += -event.movementY * 0.0005;
+    model.rotation.x += event.movementX * 0.00001;
+    model.rotation.y += -event.movementY * 0.0001;
 });
 </script>
 

@@ -46,8 +46,24 @@
   height: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   pointer-events: none;
+  overflow: hidden;
+}
+
+/* Adjust for mobile portrait orientation */
+@media (max-width: 768px) and (orientation: portrait) {
+  .three_js {
+    height: 90vh; /* Reduce height to move content up */
+    top: -200px;
+    align-items: flex-start;
+  }
+  
+  .three_js canvas {
+    max-height: 100%;
+    width: auto !important;
+    margin: 0 auto;
+  }
 }
 
 /* Style the brand button with an icon */
