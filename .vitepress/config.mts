@@ -19,11 +19,11 @@ export default defineConfig({
   title: "Heavymeta™",
   description: "Documentation for the Heavymeta Tool Set.",
   head: [
-    ['link', { rel: 'icon', type: 'image/x-icon', href: process.env.NODE_ENV === 'production' ? '/custom_homepage/assets/favicon.ico' : '/.vitepress/_resources/favicon.ico' }]
+    ['link', { rel: 'icon', type: 'image/x-icon', href: process.env.NODE_ENV === 'production' ? '/assets/favicon.ico' : '/.vitepress/_resources/favicon.ico' }]
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: process.env.NODE_ENV === 'production' ? '/custom_homepage/assets/logo.png' : '/.vitepress/_resources/logo.png',
+    logo: process.env.NODE_ENV === 'production' ? '/assets/logo.png' : '/.vitepress/_resources/logo.png',
     // assetsDir is for build output, not source assets
     // Remove it as we're handling assets differently
     search: {
