@@ -4,3 +4,5 @@ node_modules/
 .vitepress/dist/
 
 .vitepress/cache/deps/
+
+docs/.vitepress/cache/deps/
