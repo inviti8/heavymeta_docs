@@ -28,24 +28,63 @@ features:
     details: All files are cryptographically fingerprinted and stored on ipfs, this data can easily be tokenized and stored on the Stellar Ledger.
 ---
 
-
 <script setup>
-import { ref } from 'vue'
-import * as THREE from 'three';
-import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
-import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import { onMounted } from 'vue';
 
-const clock = new THREE.Clock();
-let camera, scene, model, renderer;
-let mixer = undefined;
-let modelReady = false
+// Only run this code on the client side
+onMounted(() => {
+  // Import Three.js dynamically to avoid SSR issues
+  import('three').then(THREE => {
+    import('three/addons/loaders/GLTFLoader.js').then(({ GLTFLoader }) => {
+      const clock = new THREE.Clock();
+      let camera, scene, model, renderer;
+      let mixer = undefined;
+      let modelReady = false;
 
-init();
+      // Create render function
+      function render() {
+        if (renderer && scene && camera) {
+          renderer.render(scene, camera);
+        }
+      }
 
-function init() {
+      // Handle window resize
+      function onWindowResize() {
+        if (!renderer || !camera) return;
+        
+        const targetAspect = 16 / 9;
+        let width, height;
+        
+        if (window.innerWidth / window.innerHeight > targetAspect) {
+          height = window.innerHeight;
+          width = height * targetAspect;
+        } else {
+          width = window.innerWidth;
+          height = width / targetAspect;
+        }
+        
+        renderer.setSize(width, height);
+        
+        // Center the canvas in the window
+        renderer.domElement.style.marginLeft = `${(window.innerWidth - width) / 2}px`;
+        renderer.domElement.style.marginTop = `${(window.innerHeight - height) / 2}px`;
+        
+        camera.aspect = targetAspect;
+        camera.updateProjectionMatrix();
+        render();
+      }
 
-  // Use import.meta.env.BASE_URL which is automatically set by Vite
-  const basePath = import.meta.env.BASE_URL || '/';
+      // Animation loop
+      function animate() {
+        requestAnimationFrame(animate);
+        if (mixer && modelReady) mixer.update(clock.getDelta());
+        render();
+      }
+
+      // Initialize the scene
+      function init() {
+        // Use import.meta.env.BASE_URL which is automatically set by Vite
+        const basePath = import.meta.env.BASE_URL || '/';
 
 	const material = new THREE.MeshMatcapMaterial();
 	const matcapTexture = new THREE.TextureLoader().load(basePath + 'matcap_logo.png');
@@ -178,59 +217,34 @@ function init() {
 		animate();
 			
   });
-  renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
-  renderer.setPixelRatio(window.devicePixelRatio);
-  renderer.toneMapping = THREE.ACESFilmicToneMapping;
-  renderer.toneMappingExposure = 1;
-  threeContainer.appendChild(renderer.domElement);
   
-  // Add window resize handler and trigger initial resize
-  window.addEventListener('resize', window._onWindowResize);
-  window._onWindowResize(); // Call it once on initial load
-} 
+        // Create renderer after the scene is set up
+        renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+        renderer.setPixelRatio(window.devicePixelRatio);
+        renderer.toneMapping = THREE.ACESFilmicToneMapping;
+        renderer.toneMappingExposure = 1;
+        threeContainer.appendChild(renderer.domElement);
+        
+        // Add window resize handler and trigger initial resize
+        window.addEventListener('resize', onWindowResize);
+        onWindowResize(); // Call it once on initial load
+        
+        // Add mousemove event listener
+        document.addEventListener('mousemove', function(event) {
+          if (model) {
+            model.rotation.x += event.movementX * 0.00001;
+            model.rotation.y += -event.movementY * 0.0001;
+          }
+        });
+        
+        // Start the animation loop
+        animate();
+      }
 
-function render() {
-  renderer.render(scene, camera);
-}
-
-function onWindowResize() {
-  // Maintain target aspect ratio
-  const targetAspect = 16 / 9;
-  let width, height;
-  
-  if (window.innerWidth / window.innerHeight > targetAspect) {
-    // Window is wider than target aspect ratio
-    height = window.innerHeight;
-    width = height * targetAspect;
-  } else {
-    // Window is taller than target aspect ratio
-    width = window.innerWidth;
-    height = width / targetAspect;
-  }
-  
-  // Update renderer size
-  renderer.setSize(width, height);
-  
-  // Center the canvas in the window
-  renderer.domElement.style.marginLeft = `${(window.innerWidth - width) / 2}px`;
-  renderer.domElement.style.marginTop = `${(window.innerHeight - height) / 2}px`;
-  
-  // Update camera and render
-  camera.aspect = targetAspect;
-  camera.updateProjectionMatrix();
-  render();
-}
-
-function animate() {
-	requestAnimationFrame(animate)
-  if (mixer && modelReady) mixer.update(clock.getDelta());
-  	const delta = clock.getDelta();
-	render()
-}
-
-document.addEventListener('mousemove', function(event) {
-    model.rotation.x += event.movementX * 0.00001;
-    model.rotation.y += -event.movementY * 0.0001;
+      // Start the initialization
+      init();
+    });
+  });
 });
 </script>
 
