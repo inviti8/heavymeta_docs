@@ -1,0 +1,62 @@
+# llms.txt - Configuration for LLM crawlers
+# This file helps AI language models understand and interact with your content
+
+# Basic site information
+name: "Heavymeta Documentation"
+description: "Documentation for the Heavymeta Tool Set including Pintheon Node, Press, and development tools."
+language: en
+version: "1.0"
+
+# Content access rules
+allow:
+  - path: /
+    description: "Public documentation"
+    allowed_actions: ["read"]
+
+# Rate limiting
+crawl_delay: 1  # Minimum delay between requests in seconds
+
+# Preferred content formats
+preferred_formats:
+  - "text/markdown"
+  - "text/html"
+  - "application/json"
+
+# Content freshness
+last_updated: "2024-01-01"
+update_frequency: "weekly"
+
+# Content types and their locations
+documentation:
+  - path: "/Tools/"
+    type: "documentation"
+    description: "Main documentation section"
+    
+  - path: "/api/"
+    type: "api"
+    description: "API documentation"
+
+# Ignore patterns
+ignore:
+  - "*.log"
+  - "*.tmp"
+  - "/private/"
+  - "/internal/"
+
+# Sitemap location
+sitemap: "https://heavymeta.art/sitemap.xml"
+
+# Content license
+license: "CC-BY-4.0"
+license_url: "https://creativecommons.org/licenses/by/4.0/"
+
+# Preferred citation format
+citation_format:
+  style: "APA"
+  template: "Author(s). (Year). Title. Heavymeta Documentation. URL"
+
+# Content access instructions
+instructions: |
+  This documentation is provided under an open license. Please ensure proper attribution when using this content.
+  For API access, please refer to the API documentation at /api.
+  Report any issues or suggest improvements via our GitHub repository.
