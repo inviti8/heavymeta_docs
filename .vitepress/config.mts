@@ -204,9 +204,8 @@ export default defineConfig({
 
     // Social links
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/your-org/heavymeta' },
-      { icon: 'twitter', link: 'https://twitter.com/heavymeta' },
-      { icon: 'discord', link: 'https://discord.gg/heavymeta' }
+      { icon: 'github', link: 'https://github.com/inviti8' },
+      { icon: 'discord', link: 'https://discord.gg/55mVrPcf' }
     ],
 
     // Edit link
