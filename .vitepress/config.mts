@@ -18,6 +18,20 @@ export default defineConfig({
   ],
   title: "Heavymeta™",
   description: "Documentation for the Heavymeta Tool Set.",
+  
+  // Sitemap configuration
+  sitemap: {
+    hostname: 'https://heavymeta.art',
+    transformItems(items) {
+      return items.filter(item => 
+        // Filter out any items you don't want in the sitemap
+        item.url && 
+        !item.url.includes('misc') &&
+        // Ensure all URLs are properly formatted with the base URL
+        (item.url.startsWith('/') ? !item.url.startsWith('//') : true)
+      );
+    }
+  },
   head: [
     ['link', { 
       rel: 'icon',
