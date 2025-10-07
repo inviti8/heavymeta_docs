@@ -47,8 +47,7 @@ sudo apt-get install -f
 ```
 
 ### macOS Installation
-- Download the `.zip` file
-- Extract the `.app` bundle
+- Download the `dmg` file for your architecture (arm64 or amd64)
 - Drag the application to your Applications folder
 - If you see a security warning, right-click the app and select "Open" to run it
 

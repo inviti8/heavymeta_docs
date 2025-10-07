@@ -13,7 +13,7 @@ hero:
       class: with-icon
     - theme: brand
       text: '▶️'
-      link: https://vimeo.com/1120715058?share=copy
+      link: https://youtu.be/4D6J1INuJcU
       class: with-icon
     - theme: alt
       text: Developers
