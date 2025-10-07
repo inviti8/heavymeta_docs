@@ -8,11 +8,11 @@ hero:
   
   actions:
     - theme: brand
-      text: 'Pintheon'
+      text: 'Self Host with Pintheon'
       link: /Tools/Pintheon Node/Vision
       class: with-icon
     - theme: brand
-      text: '▶️'
+      text: 'Watch the video ▶️'
       link: https://youtu.be/4D6J1INuJcU
       class: with-icon
     - theme: alt
@@ -23,7 +23,7 @@ features:
   - title: 🎨 Built by Creators for Creators
     details: Focused on protection of your digital content rights.
   - title: 🚀 Deploy with Ease
-    details: Easily upload content to your Pintheon node, designed for open development.
+    details: Easily upload & Self Host content to your Pintheon node, designed for open development.
   - title: 🔐 Secure your Creations
     details: All files are cryptographically fingerprinted and stored on ipfs, this data can easily be tokenized and stored on the Stellar Ledger.
 ---

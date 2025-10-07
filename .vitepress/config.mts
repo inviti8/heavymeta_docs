@@ -107,11 +107,11 @@ export default defineConfig({
       provider: 'local'
     },
     nav: [
-      { text: '🏯', link: '/' },
-      { text: '📜', link: '/Tools/Introduction' },
-      { text: '🪁', link: '/Tools/Pintheon Node/Vision' },
-      { text: '📓', link: '/Tools/Press/Heavymeta Press' },
-      { text: '🛠️', link: '/Tools/Roadmap/Development' }
+      { text: '🏯 HOME', link: '/' },
+      { text: '📜 ABOUT', link: '/Tools/Introduction' },
+      { text: '🪁 PINTHEON', link: '/Tools/Pintheon Node/Vision' },
+      { text: '📓 HEAVYMETA PRESS', link: '/Tools/Press/Heavymeta Press' },
+      { text: '🛠️ DEVELOPERS', link: '/Tools/Roadmap/Development' }
     ],
 
     sidebar: [
