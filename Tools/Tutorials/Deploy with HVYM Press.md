@@ -2,7 +2,7 @@ It's extremely simple to deploy a static site using Heavymeta Press. This allows
 
 * * *
 ## Video Walkthrough
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mBXCyYvYXPo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/J7wJbNThj04" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 * * *
 
