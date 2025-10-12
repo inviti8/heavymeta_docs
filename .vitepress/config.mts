@@ -111,6 +111,7 @@ export default defineConfig({
       { text: '📜 ABOUT', link: '/Tools/Introduction' },
       { text: '🪁 PINTHEON', link: '/Tools/Pintheon Node/Vision' },
       { text: '📓 HEAVYMETA PRESS', link: '/Tools/Press/Heavymeta Press' },
+      { text: '🤓 TUTORIALS', link: '/Tools/Tutorials/List' },
       { text: '🛠️ DEVELOPERS', link: '/Tools/Roadmap/Development' }
     ],
 
@@ -134,6 +135,14 @@ export default defineConfig({
         { text: '⚙️ Settings', link: '/Tools/Pintheon Node/Settings' },
         { text: '🌐 Serving Files', link: '/Tools/Pintheon Node/Serving Files to the Internet' },
         { text: '🌅 Opus Token', link: '/Tools/Pintheon Node/Opus Token' },
+        {
+          text: '🤓 Tutorials',
+          collapsed: true,
+          items: [
+            { text: 'Deploy VitePress with Pintheon', link: '/Tools/Tutorials/Deploy Vitepress with Pintheon' },
+            { text: 'Deploy with Heavymeta Press', link: '/Tools/Tutorials/Deploy with HVYM Press' }
+          ]
+        },
         {
           text: '🧑‍💻 Development',
           collapsed: true,

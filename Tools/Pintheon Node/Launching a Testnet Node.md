@@ -9,6 +9,12 @@ altitude: 0.0000
 
 &nbsp;
 
+## Video Walkthrough
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IziyOZwwxlc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+
 ## Open Pintheon on localhost
 
 Once the Pintheon Container is up and running, it will be accessible by opening a browser to: https://127.0.01:9999/admin. To access it follow the instructions below.

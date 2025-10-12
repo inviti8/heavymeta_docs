@@ -13,7 +13,7 @@ hero:
       class: with-icon
     - theme: brand
       text: 'Watch the video ▶️'
-      link: https://youtu.be/4D6J1INuJcU
+      link: https://youtu.be/jcq0N2mJlZc
       class: with-icon
     - theme: alt
       text: Developers
