@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Heavymeta™"
-  text: "Toolkit"
+  text: "(testnet) Toolkit"
   
   actions:
     - theme: brand
