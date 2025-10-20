@@ -140,7 +140,9 @@ export default defineConfig({
           collapsed: true,
           items: [
             { text: 'Deploy VitePress with Pintheon', link: '/Tools/Tutorials/Deploy Vitepress with Pintheon' },
-            { text: 'Deploy with Heavymeta Press', link: '/Tools/Tutorials/Deploy with HVYM Press' }
+            { text: 'Deploy with Heavymeta Press', link: '/Tools/Tutorials/Deploy with HVYM Press' },
+            { text: 'The Easy way to test with xBull Wallet', link: '/Tools/Tutorials/The Easy way to test with xBull Wallet' },
+            { text: 'The Easy way to test with Lobstr Wallet', link: '/Tools/Tutorials/The Easy way to test with Lobstr Wallet' }
           ]
         },
         {

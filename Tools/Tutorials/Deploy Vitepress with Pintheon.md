@@ -3,7 +3,7 @@ VitePress is a popular static site generation library, especially for technical 
 * * *
 
 ## Video Walkthrough
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5NjT73pFHD4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GiGpEpIy7eg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 * * *
 
