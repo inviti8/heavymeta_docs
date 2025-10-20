@@ -1,3 +1,9 @@
+* * *
+## Video Walkthrough
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hi68wpTsrbE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+* * *
+
 xBull wallet is a popular wallet in the Stellar ecosystem. It supports testnet transactions, though one difficulty in the process is funding the testnet account to work with. Here's a work-around, that allows the use of xBull Wallet for testnet development.
 
 ### Set xBull to use Test Network

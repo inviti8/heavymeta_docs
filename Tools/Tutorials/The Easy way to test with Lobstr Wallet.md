@@ -1,3 +1,9 @@
+* * *
+## Video Walkthrough
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3yvGmqN174w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+* * *
+
 Lobstr wallet is a popular wallet in the Stellar ecosystem. It supports testnet transactions, though one difficulty I've run into is funding the testnet account. I found a work-around, that allows the use of Lobstr Wallet for testnet development.
 
 ### Set Lobstr to use Test Network
