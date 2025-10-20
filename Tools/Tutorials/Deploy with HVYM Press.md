@@ -2,14 +2,14 @@ It's extremely simple to deploy a static site using Heavymeta Press. This allows
 
 * * *
 ## Video Walkthrough
-<iframe width="560" height="315" src="https://www.youtube.com/embed/J7wJbNThj04" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lr6UITyRfzY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 * * *
 
 ### Prerequisites
 
-1.  [Metavinci](https://heavymeta.art/custom_homepage/Tools/Pintheon%20Node/Installation.html)
-2.  [Heavymeta Press](https://heavymeta.art/custom_homepage/Tools/Press/Installation.html)
+1.  [Metavinci](https://heavymeta.art/home/Tools/Pintheon%20Node/Installation.html)
+2.  [Heavymeta Press](https://heavymeta.art/home/Tools/Press/Installation.html)
 3.  [A Pinggy Account](https://pinggy.io/)
 
 * * *
@@ -18,7 +18,7 @@ It's extremely simple to deploy a static site using Heavymeta Press. This allows
 
 <img src="/.vitepress/_resources/4733385489629a2006be30ae34eab2be.png" alt="4733385489629a2006be30ae34eab2be.png" width="286" height="248" class="jop-noMdConv">
 
-Heavymeta Press only needs markdown files inside of a folder structure to generate a static site. See [documentation](https://heavymeta.art/custom_homepage/Tools/Press/Running%20Press.html) to understand how to use it fully. For this tutorial, we will use this sample project to demonstrate how easy it is to deploy a site.
+Heavymeta Press only needs markdown files inside of a folder structure to generate a static site. See [documentation](https://heavymeta.art/home/Tools/Press/Running%20Press.html) to understand how to use it fully. For this tutorial, we will use this sample project to demonstrate how easy it is to deploy a site.
 
 * * *
 

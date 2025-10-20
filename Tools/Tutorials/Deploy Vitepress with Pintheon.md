@@ -13,7 +13,7 @@ VitePress is a popular static site generation library, especially for technical 
     
 - [Install VitePress](https://vitepress.dev/guide/getting-started#installation)
     
-- [Install Metavinci](https://heavymeta.art/custom_homepage/Tools/Pintheon%20Node/Installation.html)
+- [Install Metavinci](https://heavymeta.art/home/Tools/Pintheon%20Node/Installation.html)
     
 - [Open a Pinggy Account](https://pinggy.io/)
     
@@ -93,11 +93,11 @@ We will update it, adding an environment variable, so routing is consistent for 
 
 ```
 // Base URL configuration - will be available as import.meta.env.BASE_URL
-base: process.env.NODE_ENV === 'production' ? '/custom_homepage/' : '/',
+base: process.env.NODE_ENV === 'production' ? '/home/' : '/',
 // Ensure Vite knows about our base URL
 vite: {
   define: {
-    'import.meta.env.BASE_URL': JSON.stringify(process.env.NODE_ENV === 'production' ? '/custom_homepage/' : '/')
+    'import.meta.env.BASE_URL': JSON.stringify(process.env.NODE_ENV === 'production' ? '/home/' : '/')
   }
 }
 ```
@@ -110,11 +110,11 @@ import { defineConfig } from 'vitepress'
   // https://vitepress.dev/reference/site-config
   export default defineConfig({
   // Base URL configuration - will be available as import.meta.env.BASE_URL
-  base: process.env.NODE_ENV === 'production' ? '/custom_homepage/' : '/',
+  base: process.env.NODE_ENV === 'production' ? '/home/' : '/',
   // Ensure Vite knows about our base URL
   vite: {
     define: {
-      'import.meta.env.BASE_URL': JSON.stringify(process.env.NODE_ENV === 'production' ? '/custom_homepage/' : '/')
+      'import.meta.env.BASE_URL': JSON.stringify(process.env.NODE_ENV === 'production' ? '/home/' : '/')
     }
   },
   title: "Pintheon Demo",
@@ -235,7 +235,7 @@ If upload was successful, a confirmation will show.
 
 <img src="/.vitepress/_resources/c314fcf26c1e79af3a2123b2a7d03b35.png" alt="c314fcf26c1e79af3a2123b2a7d03b35.png" width="418" height="319" class="jop-noMdConv">
 
-The site is now served on: https://127.0.0.1:9998/custom_homepage/
+The site is now served on: https://127.0.0.1:9998/home/
 
 * * *
 

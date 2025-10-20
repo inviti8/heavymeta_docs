@@ -3,11 +3,11 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   // Base URL configuration - will be available as import.meta.env.BASE_URL
-  base: process.env.NODE_ENV === 'production' ? '/custom_homepage/' : '/',
+  base: process.env.NODE_ENV === 'production' ? '/home/' : '/',
   // Ensure Vite knows about our base URL
   vite: {
     define: {
-      'import.meta.env.BASE_URL': JSON.stringify(process.env.NODE_ENV === 'production' ? '/custom_homepage/' : '/')
+      'import.meta.env.BASE_URL': JSON.stringify(process.env.NODE_ENV === 'production' ? '/home/' : '/')
     }
   },
   ignoreDeadLinks: [
