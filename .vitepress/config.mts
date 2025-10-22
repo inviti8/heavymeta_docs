@@ -171,6 +171,13 @@ export default defineConfig({
         items: [
           { text: 'Development', link: '/Tools/Roadmap/Development' }
         ]
+      },
+      {
+        text: 'LEGAL',
+        collapsed: true,
+        items: [
+          { text: 'Privacy Policy', link: '/legal/privacy-policy' }
+        ]
       }
     ],
 
