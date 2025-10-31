@@ -8,7 +8,7 @@ hero:
   
   actions:
     - theme: brand
-      text: 'Self Host with Pintheon'
+      text: 'Pintheon Gateway Storage'
       link: /Tools/Pintheon Node/Vision
       class: with-icon
     - theme: brand
@@ -20,12 +20,12 @@ hero:
       link: /Tools/Pintheon Node/Developer Guide - Programmatic Access
 
 features:
-  - title: 🎨 Built by Creators for Creators
-    details: Focused on protection of your digital content rights.
+  - title: "🎨 Built by a Creative Collective for Uncompromised Creative Control"
+    details: Our AI-resistant platform ensures your digital sovereignty in the Web3 era. Focused on Open Web standards and protection of your digital content rights. Maintain your Creative Power with our distributed file storage solutions.
   - title: 🚀 Deploy with Ease
-    details: Easily upload & Self Host content to your Pintheon node, designed for open development.
+    details: Easily upload & Self Host content to your Pintheon node, via the web3 dapp, designed for open development.
   - title: 🔐 Secure your Creations
-    details: All files are cryptographically fingerprinted and stored on ipfs, this data can easily be tokenized and stored on the Stellar Ledger.
+    details: Used to protect creative works, All files are cryptographically fingerprinted and stored on ipfs, this data can easily be tokenized and stored on the Stellar Ledger.
 ---
 
 <script setup>

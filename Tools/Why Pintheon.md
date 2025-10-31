@@ -109,6 +109,6 @@ Pintheon isn't just another storage solution—it's a complete ecosystem for the
 
 - **For Creators**: Maintain full rights and revenue from your work
 - **For Developers**: Build truly decentralized applications with ease
-- **For Businesses**: Future-proof your digital assets with enterprise-grade infrastructure
+- **For Businesses**: A cloud based server for small business, for file storage, or as a file server for your website.
 
 Join the growing community of creators who have chosen to take back control of their digital content with Pintheon.
