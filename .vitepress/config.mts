@@ -23,13 +23,21 @@ export default defineConfig({
   sitemap: {
     hostname: 'https://heavymeta.art',
     transformItems(items) {
-      return items.filter(item => 
-        // Filter out any items you don't want in the sitemap
-        item.url && 
-        !item.url.includes('misc') &&
-        // Ensure all URLs are properly formatted with the base URL
-        (item.url.startsWith('/') ? !item.url.startsWith('//') : true)
-      );
+      return items
+        .filter(item => 
+          // Filter out any items you don't want in the sitemap
+          item.url && 
+          !item.url.includes('misc') &&
+          !item.url.endsWith('README/') &&  // Exclude README/ URLs
+          !item.url.endsWith('README.html')  // Exclude README.html URLs
+        )
+        .map(item => ({
+          ...item,
+          // Add /home/ prefix to all URLs while ensuring we don't get double slashes
+          url: item.url.startsWith('/') 
+            ? `/home${item.url}` 
+            : `/home/${item.url}`
+        }));
     }
   },
   head: [
